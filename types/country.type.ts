@@ -5,3 +5,8 @@ export interface ICountry {
     region: string,
     borders?: ICountry[]
 }
+
+export interface IShortCountry {
+    countryCode: string,
+    name: string
+}
