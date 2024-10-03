@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import type { IShortCountry } from '~/types/country.type';
 import type { IHolyday } from '~/types/holyday.type';
-const { getNextHolyday} = useCountry()
+const { getNextHolyday} = useHolyday()
 const { country } = defineProps({
     country: {
         type: Object as () => IShortCountry,

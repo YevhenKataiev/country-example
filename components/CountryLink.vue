@@ -1,5 +1,5 @@
 <template>
-    <button class="border rounded p-1" @click="navigateTo(country.name)">
+    <button class="border rounded p-1" @click="$router.push(country.countryCode)">
         {{ country.name }}
     </button>
 </template>
